@@ -22,8 +22,6 @@ class ScrollLabel(QScrollArea):
         # creating label
         self.label = QLabel(content)
 
-        
-
         # setting alignment to the text
         self.label.setAlignment(Qt.AlignLeft | Qt.AlignTop)
 
@@ -102,6 +100,3 @@ if __name__ == '__main__':
     window.show()
 
     app.exec_()
-
-
-
